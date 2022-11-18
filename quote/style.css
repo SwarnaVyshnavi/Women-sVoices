@@ -1,0 +1,67 @@
+body {
+    /* background-color:red; */
+    background-image: url("women.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    background-attachment: fixed;
+    background-position: center ;
+    position: relative;
+    /* width: 85%;
+    height: 610px; */
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+.container {
+    /* border:1px solid black; */
+    width: 95%;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+}
+
+.quotes {
+    border: 1px solid black;
+    width: 900px;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    color: grey;
+    background-color: #f4edea;
+    /* border: 10px solid #f4d1ae; */
+    border:10px solid darkolivegreen;
+    
+}
+#quote{
+    color:black;
+    font-size: 22px;
+    font-weight: bold;
+}
+#author{
+font-style: italic;
+
+color:darkolivegreen;
+
+}
+.button{
+    padding-top: 340px;
+    position: fixed;
+}
+
+.quotes p,
+.quotes h3 {
+    font-size: 1.5rem;
+}
+
+@media(max-width:480px) {
+
+    .quotes p,
+    .quotes h3 {
+        font-size: 1rem;
+    }
+}
